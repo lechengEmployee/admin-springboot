@@ -92,6 +92,15 @@ public class SysUserController {
         return Result.judge(result);
     }
 
+    @Operation(summary = "个人中心修改用户", security = {@SecurityRequirement(name = "Authorization")})
+    @PutMapping(value = "/profile/{userId}")
+    public Result profileUpdateUser(
+            @Parameter(description = "用户ID") @PathVariable Long userId,
+            @RequestBody @Validated UserForm userForm) {
+        boolean result = userService.updateUser(userId, userForm);
+        return Result.judge(result);
+    }
+
     @Operation(summary = "删除用户", security = {@SecurityRequirement(name = "Authorization")})
     @DeleteMapping("/{ids}")
     @PreAuthorize("@ss.hasPerm('sys:user:delete')")
