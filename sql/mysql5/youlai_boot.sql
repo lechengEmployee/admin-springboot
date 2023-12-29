@@ -288,16 +288,16 @@ INSERT INTO `sys_role_menu` VALUES (2, 85);
 INSERT INTO `sys_role_menu` VALUES (2, 86);
 INSERT INTO `sys_role_menu` VALUES (2, 87);
 INSERT INTO `sys_role_menu` VALUES (2, 88);
-INSERT INTO `youlai_boot`.`sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 89);
-INSERT INTO `youlai_boot`.`sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 90);
-INSERT INTO `youlai_boot`.`sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 91);
-INSERT INTO `youlai_boot`.`sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 92);
-INSERT INTO `youlai_boot`.`sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 93);
-INSERT INTO `youlai_boot`.`sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 94);
-INSERT INTO `youlai_boot`.`sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 95);
-INSERT INTO `youlai_boot`.`sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 96);
-INSERT INTO `youlai_boot`.`sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 97);
-INSERT INTO `youlai_boot`.`sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 102);
+INSERT INTO `sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 89);
+INSERT INTO `sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 90);
+INSERT INTO `sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 91);
+INSERT INTO `sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 92);
+INSERT INTO `sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 93);
+INSERT INTO `sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 94);
+INSERT INTO `sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 95);
+INSERT INTO `sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 96);
+INSERT INTO `sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 97);
+INSERT INTO `sys_role_menu` (`role_id`, `menu_id`) VALUES (2, 102);
 
 
 
